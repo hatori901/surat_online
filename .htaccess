@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(.*)$ /public/$1 [L]
+RewriteCond %{HTTP_HOST} ^agenpembayaranindonesia\.com [NC]
+RewriteRule ^(.*)$ https://www.agenpembayaranindonesia.com/$1 [L,R=301]
+</IfModule>

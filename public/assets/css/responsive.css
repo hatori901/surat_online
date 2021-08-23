@@ -1,0 +1,37 @@
+@media (max-width: 1199px) {
+
+    .info__moc {
+        left: -20%;
+    }
+}
+@media (max-width: 991px) {
+    img {
+        max-width: 100%;
+    }
+    .banner__moc {
+        display: none;
+    }
+
+    .banner .container {
+        padding-top: 200px;
+        padding-bottom: 120px;
+    }
+
+    .info__moc {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+}
+@media (max-width: 375px) {
+    .banner .container {
+        padding-top: 130px;
+    }
+
+    .banner__moc:before {
+        display: none;
+    }
+    .info__moc {
+        z-index: -1;
+    }
+}
